@@ -34,32 +34,6 @@ matches:
         params:
           cmd: "echo 'Hello from your shell'"
 
-  # Single words.
-  - trigger: "th"
-    replace: "the"
-    propagate_case: true
-    word: true
-  - trigger: "t"
-    replace: "to"
-    propagate_case: true
-    word: true
-  - trigger: "tN"
-    replace: "thing"
-    propagate_case: true
-    word: true
-  - trigger: "u"
-    replace: "you"
-    propagate_case: true
-    word: true
-  - trigger: "wh"
-    replace: "what"
-    propagate_case: true
-    word: true
-  - trigger: "ar"
-    replace: "are"
-    propagate_case: true
-    word: true
-
   - regex: ";(?P<ex>[A-Za-z]+)(?P<end>[^A-Za-z])"
     replace: "{{out}}{{end}}"
     vars:
