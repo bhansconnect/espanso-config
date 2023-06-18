@@ -27,7 +27,3 @@ matches:
     replace: "what"
     propagate_case: true
     word: true
-  - trigger: "whar"
-    replace: "what are"
-    propagate_case: true
-    word: true
