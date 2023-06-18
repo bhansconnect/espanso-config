@@ -1,0 +1,8 @@
+#######  DO NOT EDIT   #######
+####### AUTO GENERATED #######
+
+matches:
+  - trigger: "whar"
+    replace: "what are"
+    propagate_case: true
+    word: true

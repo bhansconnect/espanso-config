@@ -34,7 +34,7 @@ for dict_path in script_path.parent.glob('*.csv'):
                 continue
             triggers[row[0]] = row[1]
 
-out = '''
+out = '''\
 #######  DO NOT EDIT   #######
 ####### AUTO GENERATED #######
 
